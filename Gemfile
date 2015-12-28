@@ -4,7 +4,8 @@ source 'http://rubygems.org'
 
 gem "rake", "~> 10.0"
 gem "jekyll", "~> 2.4.0"
-gem "redcarpet", "~> 3.3"
+gem "redcarpet", "~> 3.3.3"
+gem "html-pipeline", "~> 1.9.0"
 gem "rb-fsevent", "~> 0.9"
 gem "compass", "~> 1.0"
 gem "sass", "~> 3.4"
