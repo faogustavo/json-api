@@ -12,10 +12,12 @@ exclude:
   - .gitignore
   - ./public
   - ./stylesheets/*.scss
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
 highlighter: pygments
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: false
 port: 9876
 
 collections:

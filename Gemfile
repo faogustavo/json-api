@@ -3,8 +3,8 @@
 source 'http://rubygems.org'
 
 gem "rake", "~> 10.0"
-gem "jekyll", "~> 3.0.0"
-gem "redcarpet", "~> 3.3"
+gem "jekyll", "~> 3.0.3"
+gem "kramdown", "~> 1.9.0"
 gem "rb-fsevent", "~> 0.9"
 gem "compass", "~> 1.0"
 gem "sass", "~> 3.4"
